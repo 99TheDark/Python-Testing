@@ -1,5 +1,3 @@
-letters = "abcdefghijklmnopqrstuvwxyz"
-
 def is_anagram(a, b):
     return sorted(list(a)) == sorted(list(b))
     
