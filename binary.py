@@ -9,4 +9,4 @@ def binary(num):
 def printBinary(num):
     print(f'{num} in binary is {binary(num)}')
     
-printBinary(346578);
+printBinary(346578)
