@@ -1,7 +1,5 @@
 import math
 
-import math
-
 def integral(func, start, stop, increment = 0.0001):
     ran = [val * increment for val in range(start, int(stop / increment))] # Decimal increment
     sum = 0
